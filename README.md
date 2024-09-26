@@ -18,12 +18,6 @@ You can download the latest version of the extension from the
 [Releases][download] page.
 
 
-## Compiling from source
-
-Check the [INSTALL.md][install] file for instruction on how to compile the
-extension from source.
-
-
 ## Reporting bugs
 
 You can report bugs and ask questions at the extension's [issue tracker][issues].
@@ -35,5 +29,5 @@ Check the [CONTRIBUTING.md][contribute] file for info on how to contribute.
 
 
 
-[download]: https://github.com/chaeya/nemo-extension-admin/releases
-[issues]: https://github.com/chaeya/nemo-extension-admin/issues
+[download]: https://github.com/hamonikr/nemo-extension-admin/releases
+[issues]: https://github.com/hamonikr/nemo-extension-admin/issues

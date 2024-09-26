@@ -1,0 +1,9 @@
+nemo-extension-admin (1.0.0) unstable; urgency=high
+
+  * Initial release
+   - Open as Administrator: opens a folder in a new Nemo window
+     running with administrator (root) privileges.
+   - Edit as Administrator: opens a file in a Xed window running
+     with administrator (root) privileges.
+
+ -- Kevin Kim <chaeya@gmail.com>  Thu, 26 Sep 2024 13:19:52 +0900
