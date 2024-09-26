@@ -20,7 +20,7 @@ jobs:
         with:
           docker-image: ubuntu:24.04
           buildpackage-opts: -us -uc
-          before-build-hook: apt-get install -y devscripts equivs && mk-build-deps --install --remove debian/control && debchange --controlmaint --local="+ci${{ github.run_id }}~ubuntu2404~git$(git rev-parse --short HEAD)" "CI build"
+          before-build-hook: apt-get install -y devscripts equivs && mk-build-deps --install --remove debian/control && debchange --controlmaint --local="+ci${{ github.run_id }}~hamonikr-8.0~git$(git rev-parse --short HEAD)" "CI build"
           extra-build-deps: devscripts git equivs debhelper build-essential
           host-arch: amd64
           artifacts-dir: debian/artifacts-ubuntu2404
@@ -45,7 +45,7 @@ jobs:
         with:
           docker-image: ubuntu:22.04
           buildpackage-opts: -us -uc
-          before-build-hook: apt-get install -y devscripts equivs && mk-build-deps --install --remove debian/control && debchange --controlmaint --local="+ci${{ github.run_id }}~ubuntu2204~git$(git rev-parse --short HEAD)" "CI build"
+          before-build-hook: apt-get install -y devscripts equivs && mk-build-deps --install --remove debian/control && debchange --controlmaint --local="+ci${{ github.run_id }}~hamonikr-7.0~git$(git rev-parse --short HEAD)" "CI build"
           extra-build-deps: devscripts git equivs debhelper build-essential
           host-arch: amd64
           artifacts-dir: debian/artifacts-ubuntu2204
