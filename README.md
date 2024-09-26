@@ -8,9 +8,10 @@ adds some administrative actions to the right-click menu:
 
 *   **Open as Administrator**: opens a folder in a new Nemo window running
     with administrator (root) privileges.
-*   **Edit as Administrator**: opens a file in a Gedit window running with
+*   **Edit as Administrator**: opens a file in a Xed window running with
     administrator (root) privileges.
 
+![app](./app.png)
 
 ## Download
 
@@ -21,12 +22,6 @@ You can download the latest version of the extension from the
 ## Reporting bugs
 
 You can report bugs and ask questions at the extension's [issue tracker][issues].
-
-
-## Contributing
-
-Check the [CONTRIBUTING.md][contribute] file for info on how to contribute.
-
 
 
 [download]: https://github.com/hamonikr/nemo-extension-admin/releases
