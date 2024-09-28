@@ -53,6 +53,7 @@ class NemoAdmin(Nemo.MenuProvider, GObject.GObject):  # 변경: Nautilus -> Nemo
         """Returns the menu items to display when one or more files/folders are
         selected."""
         files = args[-1]
+        self._setup_gettext()
         # Don't show when already running as root, or when more than 1 file is selected
         if os.geteuid() == ROOT_UID or len(files) != 1:
             return
