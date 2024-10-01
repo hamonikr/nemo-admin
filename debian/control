@@ -1,15 +1,14 @@
-Source: nemo-extension-admin
+Source: nemo-admin
 Section: gnome
 Priority: optional
 Maintainer: Carlos Maddela <e7appew@gmail.com>
 Build-Depends: cmake (>= 2.6), debhelper-compat (= 12), gettext
 Standards-Version: 4.4.1
-Homepage: https://github.com/brunonova/nautilus-admin
-Vcs-Git: https://salsa.debian.org/debian/nautilus-admin.git
-Vcs-Browser: https://salsa.debian.org/debian/nautilus-admin
+Homepage: https://github.com/hamonikr/nemo-admin
+Vcs-Git: https://github.com/hamonikr/nemo-admin.git
 Rules-Requires-Root: no
 
-Package: nemo-extension-admin
+Package: nemo-admin
 Architecture: all
 Depends: gir1.2-gtk-3.0,
          gvfs-backends (>= 1.30),

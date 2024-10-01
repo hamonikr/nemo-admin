@@ -6,7 +6,7 @@ cd "$DIR"
 xgettext --package-name=nemo-extension-admin \
          --package-version=1.0.0 \
          --copyright-holder='Kevin Kim <chaeya@gmail.com>' \
-         --msgid-bugs-address='https://github.com/chaeya/nemo-extension-admin/issues' \
+         --msgid-bugs-address='https://github.com/hamonikr/nemo-admin/issues' \
          -cTRANSLATORS \
-         -s -o "po/nemo-extension-admin.pot" \
-         "extension/nemo-extension-admin.py"
+         -s -o "po/nemo-admin.pot" \
+         "extension/nemo-admin.py"

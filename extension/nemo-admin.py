@@ -45,8 +45,8 @@ class NemoAdmin(Nemo.MenuProvider, GObject.GObject):  # 변경: Nautilus -> Nemo
     def _setup_gettext(self):
         """Setup gettext to use the nemo-admin domain."""
         locale.setlocale(locale.LC_ALL, '')
-        bindtextdomain('nemo-extension-admin', '/usr/share/locale')
-        textdomain('nemo-extension-admin')
+        bindtextdomain('nemo-admin', '/usr/share/locale')
+        textdomain('nemo-admin')
         _ = gettext.gettext
 
     def get_file_items(self, *args):

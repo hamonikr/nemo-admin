@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: nemo-extension-admin
-Source: https://github.com/chaeya/nemo-extension-admin
+Source: https://github.com/hamonikr/nemo-admin
 
 Files: *
 Copyright: 2024 Kevin Kim <chaeya@gmail.com>

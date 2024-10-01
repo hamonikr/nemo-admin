@@ -1,4 +1,4 @@
-Nemo Extension Admin
+Nemo Admin
 ==============
 
 [![GPLv3 license](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
@@ -24,5 +24,5 @@ You can download the latest version of the extension from the
 You can report bugs and ask questions at the extension's [issue tracker][issues].
 
 
-[download]: https://github.com/hamonikr/nemo-extension-admin/releases
-[issues]: https://github.com/hamonikr/nemo-extension-admin/issues
+[download]: https://github.com/hamonikr/nemo-admin/releases
+[issues]: https://github.com/hamonikr/nemo-admin/issues

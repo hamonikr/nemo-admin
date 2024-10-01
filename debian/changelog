@@ -1,10 +1,10 @@
-nemo-extension-admin (1.0.1) unstable; urgency=high
+nemo-admin (1.0.1) unstable; urgency=high
 
   * Fixed Korean message in context menu
 
  -- Kevin Kim <chaeya@gmail.com>  Sat, 28 Sep 2024 14:10:31 +0900
 
-nemo-extension-admin (1.0.0) unstable; urgency=high
+nemo-admin (1.0.0) unstable; urgency=high
 
   * Initial release
    - Open as Administrator: opens a folder in a new Nemo window
