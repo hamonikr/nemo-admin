@@ -1,3 +1,9 @@
+nemo-admin (1.0.2) unstable; urgency=high
+
+  * Release for HamoniKR 8.0 paektu
+
+ -- Kevin Kim <chaeya@gmail.com>  Tue, 01 Oct 2024 13:56:37 +0900
+
 nemo-admin (1.0.1) unstable; urgency=high
 
   * Fixed Korean message in context menu
