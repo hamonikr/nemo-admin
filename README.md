@@ -11,7 +11,14 @@ adds some administrative actions to the right-click menu:
 *   **Edit as Administrator**: opens a file in a Xed window running with
     administrator (root) privileges.
 
-![app](./app.png)
+### screenshot
+
+<table>
+<tr>
+<td><a href="./app-1.png"><img src="./app-1.png" width="400"></a></td>
+<td><a href="./app-2.png"><img src="./app-2.png" width="400"></a></td>
+</tr>
+</table>
 
 ## Download
 
